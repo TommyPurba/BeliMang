@@ -3,6 +3,9 @@ uvicorn[standard]
 pydantic[dotenv]
 passlib[bcrypt]
 python-multipart
-sqlalchemy
-asyncpg
+sqlalchemy>=2.0
+psycopg2-binary
 alembic
+python-dotenv
+geoalchemy2
+python-jose[cryptography]
